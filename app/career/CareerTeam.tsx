@@ -21,10 +21,10 @@ type Job = {
 const jobListings: Job[] = [
   {
     id: 1,
-    title: "Enterprise SEO Consultant",
-    location: "Remote, (USA)",
+    title: "Messaging Platform Engineer",
+    location: "Remote, (India)",
     type: "Full time",
-    slug: "enterprise-seo-consultant",
+    slug: "messaging-platform-engineer",
     categories: ["cat1", "cat3", "cat5"],
   },
   {

@@ -29,7 +29,7 @@ const CaseStudySingle: FC<CaseStudySingleProps> = () => {
                       <Image src={icon} alt="" /> Casestudy details
                     </span>
                     <h2 className="title">
-                      Discover our case studies <br /> highlighting transformative <br /> SEO and IT
+                      Discover our case studies <br /> highlighting transformative <br /> CPaaS
                       solutions
                     </h2>
                   </div>

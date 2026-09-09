@@ -18,20 +18,20 @@ interface Feature {
 // Features data
 const Features: Feature[] = [
   {
-    title: 'Expert team members',
-    des: 'We take pride in assembling a diverse and highly skilled.',
+    title: '99.9% uptime delivery',
+    des: 'Carrier-grade infrastructure that keeps your SMS, RCS and voice traffic flowing without interruption.',
     icon: icon1,
     duration: 1000,
   },
   {
-    title: 'Fastest customer service',
-    des: 'We pride ourselves on providing the fastest customer service industry.',
+    title: 'Fast, dedicated support',
+    des: 'A dedicated onboarding and support team that helps you go live and stay compliant, fast.',
     icon: icon2,
     duration: 1200,
   },
   {
-    title: 'Reasonable pricing',
-    des: 'We believe in providing reasonable pricing that offers exceptional.',
+    title: 'Transparent, usage-based pricing',
+    des: 'Pay only for what you send across SMS, WhatsApp, RCS and voice with no hidden fees.',
     icon: icon3,
     duration: 1400,
   },

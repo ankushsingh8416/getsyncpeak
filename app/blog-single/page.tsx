@@ -28,7 +28,7 @@ export default function BlogDetailsPage() {
                     <span className="sub-title">
                       <Image src={icon} alt="Icon" /> Blog details
                     </span>
-                    <h2 className="title">AI in Neuroimaging: IXICO’s Cloud Transformation</h2>
+                    <h2 className="title">Revolutionizing Customer Engagement with CPaaS</h2>
                   </div>
                 </div>
                 <div className="col-lg-3 mt-30">

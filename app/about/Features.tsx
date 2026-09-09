@@ -17,13 +17,13 @@ const features: Feature[] = [
   {
     icon: sIcon1,
     title: 'Deliver results',
-    content: 'At Innomax, delivering results means achieving success.',
+    content: 'At getsyncpeak, delivering results means achieving success.',
     delay: '0ms',
   },
   {
     icon: sIcon2,
     title: 'Being proactive',
-    content: 'At Innomax, being proactive means anticipating challenges.',
+    content: 'At getsyncpeak, being proactive means anticipating challenges.',
     delay: '100ms',
   },
   {

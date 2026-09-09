@@ -36,7 +36,7 @@ const PricingSection: React.FC = () => {
           <Fade direction='down' triggerOnce={false} duration={1200} delay={9}>
             <div>
               <h2 className="title wow fadeInDown" data-wow-delay="150ms" data-wow-duration="600ms">
-                We offered best pricing
+                Simple, usage-based pricing
               </h2>
             </div>
           </Fade>
@@ -79,8 +79,8 @@ const PricingSection: React.FC = () => {
                           <Image src={picon} alt="Basic Icon" />
                         </div>
                         <div className="xb-item--right">
-                          <h3 className="xb-item--title">Basic</h3>
-                          <span className="xb-item--text">For businesses starting.</span>
+                          <h3 className="xb-item--title">Starter</h3>
+                          <span className="xb-item--text">For businesses starting out.</span>
                         </div>
                       </div>
                       <div className="xb-item--price">
@@ -90,11 +90,11 @@ const PricingSection: React.FC = () => {
                       <div className="xb-item--line"></div>
                       <h4 className="xb-item--feature">Features</h4>
                       <ul className="xb-item--list list-unstyled">
-                        <li><Image src={check} alt="Check" /> In-depth Keyword Research</li>
-                        <li><Image src={check} alt="Check" /> On-Page SEO Optimization</li>
-                        <li><Image src={check} alt="Check" /> Technical SEO Audits</li>
-                        <li><Image src={check} alt="Check" /> Monthly Performance Reporting</li>
-                        <li className="deactive"><Image src={cross} alt="Cross" /> Weekly Reports & SEO Manager</li>
+                        <li><Image src={check} alt="Check" /> Bulk SMS (10,000 credits/mo)</li>
+                        <li><Image src={check} alt="Check" /> DLT Registration Support</li>
+                        <li><Image src={check} alt="Check" /> OTP & 2FA Verification</li>
+                        <li><Image src={check} alt="Check" /> Delivery Reports Dashboard</li>
+                        <li className="deactive"><Image src={cross} alt="Cross" /> WhatsApp & RCS Messaging</li>
                       </ul>
                       <div className="pg-det-btn">
                         <Link href="/contact" className="cp-btn">Choose your plan</Link>
@@ -110,11 +110,11 @@ const PricingSection: React.FC = () => {
                     <div className="xb-item--inner o-hidden pos-rel">
                       <div className="xb-item--holder ul_li">
                         <div className="xb-item--icon">
-                          <Image src={picon2} alt="Standard Icon" />
+                          <Image src={picon2} alt="Growth Icon" />
                         </div>
                         <div className="xb-item--right">
-                          <h3 className="xb-item--title">Standard</h3>
-                          <span className="xb-item--text">For businesses with more traffic.</span>
+                          <h3 className="xb-item--title">Growth</h3>
+                          <span className="xb-item--text">For businesses with growing volume.</span>
                         </div>
                       </div>
                       <div className="xb-item--price">
@@ -124,11 +124,11 @@ const PricingSection: React.FC = () => {
                       <div className="xb-item--line"></div>
                       <h4 className="xb-item--feature">Features</h4>
                       <ul className="xb-item--list list-unstyled">
-                        <li><Image src={check} alt="Check" /> All features of Basic SEO Package</li>
-                        <li><Image src={check} alt="Check" /> Local SEO Strategy & Optimization</li>
-                        <li><Image src={check} alt="Check" /> Content Creation & Optimization</li>
-                        <li><Image src={check} alt="Check" /> High-Quality Link Building</li>
-                        <li><Image src={check} alt="Check" /> Weekly Reports & SEO Manager</li>
+                        <li><Image src={check} alt="Check" /> All features of the Starter plan</li>
+                        <li><Image src={check} alt="Check" /> WhatsApp Business API</li>
+                        <li><Image src={check} alt="Check" /> RCS Business Messaging</li>
+                        <li><Image src={check} alt="Check" /> Voice Call & IVR (2,000 mins/mo)</li>
+                        <li><Image src={check} alt="Check" /> Dedicated Onboarding Manager</li>
                       </ul>
                       <div className="pg-det-btn">
                         <Link href="/contact" className="cp-btn">Choose your plan</Link>
@@ -143,11 +143,11 @@ const PricingSection: React.FC = () => {
                     <div className="xb-item--inner o-hidden pos-rel">
                       <div className="xb-item--holder ul_li">
                         <div className="xb-item--icon">
-                          <Image src={picon3} alt="Premium Icon" />
+                          <Image src={picon3} alt="Enterprise Icon" />
                         </div>
                         <div className="xb-item--right">
-                          <h3 className="xb-item--title">Premium</h3>
-                          <span className="xb-item--text">For large enterprises.</span>
+                          <h3 className="xb-item--title">Enterprise</h3>
+                          <span className="xb-item--text">For large-scale operations.</span>
                         </div>
                       </div>
                       <div className="xb-item--price">
@@ -157,11 +157,11 @@ const PricingSection: React.FC = () => {
                       <div className="xb-item--line"></div>
                       <h4 className="xb-item--feature">Features</h4>
                       <ul className="xb-item--list list-unstyled">
-                        <li><Image src={check} alt="Check" /> All features of Advanced SEO Package</li>
-                        <li><Image src={check} alt="Check" /> Full Website & Technical SEO Audit</li>
-                        <li><Image src={check} alt="Check" /> Competitor Analysis & Monitoring</li>
-                        <li><Image src={check} alt="Check" /> Advanced Backlink Building Campaigns</li>
-                        <li><Image src={check} alt="Check" /> Weekly Reports & SEO Manager</li>
+                        <li><Image src={check} alt="Check" /> All features of the Growth plan</li>
+                        <li><Image src={check} alt="Check" /> Unlimited Messaging Volume</li>
+                        <li><Image src={check} alt="Check" /> Chatbot & Conversational API</li>
+                        <li><Image src={check} alt="Check" /> Custom API & SDK Integration</li>
+                        <li><Image src={check} alt="Check" /> 24/7 Priority Support & SLA</li>
                       </ul>
                       <div className="pg-det-btn">
                         <Link href="/contact" className="cp-btn">Choose your plan</Link>
@@ -184,8 +184,8 @@ const PricingSection: React.FC = () => {
                           <Image src={picon} alt="Basic Icon" />
                         </div>
                         <div className="xb-item--right">
-                          <h3 className="xb-item--title">Basic</h3>
-                          <span className="xb-item--text">For businesses starting.</span>
+                          <h3 className="xb-item--title">Starter</h3>
+                          <span className="xb-item--text">For businesses starting out.</span>
                         </div>
                       </div>
                       <div className="xb-item--price">
@@ -195,11 +195,11 @@ const PricingSection: React.FC = () => {
                       <div className="xb-item--line"></div>
                       <h4 className="xb-item--feature">Features</h4>
                       <ul className="xb-item--list list-unstyled">
-                        <li><Image src={check} alt="Check" /> In-depth Keyword Research</li>
-                        <li><Image src={check} alt="Check" /> On-Page SEO Optimization</li>
-                        <li><Image src={check} alt="Check" /> Technical SEO Audits</li>
-                        <li><Image src={check} alt="Check" /> Monthly Performance Reporting</li>
-                        <li className="deactive"><Image src={cross} alt="Cross" /> Weekly Reports & SEO Manager</li>
+                        <li><Image src={check} alt="Check" /> Bulk SMS (10,000 credits/mo)</li>
+                        <li><Image src={check} alt="Check" /> DLT Registration Support</li>
+                        <li><Image src={check} alt="Check" /> OTP & 2FA Verification</li>
+                        <li><Image src={check} alt="Check" /> Delivery Reports Dashboard</li>
+                        <li className="deactive"><Image src={cross} alt="Cross" /> WhatsApp & RCS Messaging</li>
                       </ul>
                       <div className="pg-det-btn">
                         <Link href="/contact" className="cp-btn">Choose your plan</Link>
@@ -215,11 +215,11 @@ const PricingSection: React.FC = () => {
                     <div className="xb-item--inner o-hidden pos-rel">
                       <div className="xb-item--holder ul_li">
                         <div className="xb-item--icon">
-                          <Image src={picon2} alt="Standard Icon" />
+                          <Image src={picon2} alt="Growth Icon" />
                         </div>
                         <div className="xb-item--right">
-                          <h3 className="xb-item--title">Standard</h3>
-                          <span className="xb-item--text">For businesses with more traffic.</span>
+                          <h3 className="xb-item--title">Growth</h3>
+                          <span className="xb-item--text">For businesses with growing volume.</span>
                         </div>
                       </div>
                       <div className="xb-item--price">
@@ -229,11 +229,11 @@ const PricingSection: React.FC = () => {
                       <div className="xb-item--line"></div>
                       <h4 className="xb-item--feature">Features</h4>
                       <ul className="xb-item--list list-unstyled">
-                        <li><Image src={check} alt="Check" /> All features of Basic SEO Package</li>
-                        <li><Image src={check} alt="Check" /> Local SEO Strategy & Optimization</li>
-                        <li><Image src={check} alt="Check" /> Content Creation & Optimization</li>
-                        <li><Image src={check} alt="Check" /> High-Quality Link Building</li>
-                        <li><Image src={check} alt="Check" /> Weekly Reports & SEO Manager</li>
+                        <li><Image src={check} alt="Check" /> All features of the Starter plan</li>
+                        <li><Image src={check} alt="Check" /> WhatsApp Business API</li>
+                        <li><Image src={check} alt="Check" /> RCS Business Messaging</li>
+                        <li><Image src={check} alt="Check" /> Voice Call & IVR (2,000 mins/mo)</li>
+                        <li><Image src={check} alt="Check" /> Dedicated Onboarding Manager</li>
                       </ul>
                       <div className="pg-det-btn">
                         <Link href="/contact" className="cp-btn">Choose your plan</Link>
@@ -248,11 +248,11 @@ const PricingSection: React.FC = () => {
                     <div className="xb-item--inner o-hidden pos-rel">
                       <div className="xb-item--holder ul_li">
                         <div className="xb-item--icon">
-                          <Image src={picon3} alt="Premium Icon" />
+                          <Image src={picon3} alt="Enterprise Icon" />
                         </div>
                         <div className="xb-item--right">
-                          <h3 className="xb-item--title">Premium</h3>
-                          <span className="xb-item--text">For large enterprises.</span>
+                          <h3 className="xb-item--title">Enterprise</h3>
+                          <span className="xb-item--text">For large-scale operations.</span>
                         </div>
                       </div>
                       <div className="xb-item--price">
@@ -262,11 +262,11 @@ const PricingSection: React.FC = () => {
                       <div className="xb-item--line"></div>
                       <h4 className="xb-item--feature">Features</h4>
                       <ul className="xb-item--list list-unstyled">
-                        <li><Image src={check} alt="Check" /> All features of Advanced SEO Package</li>
-                        <li><Image src={check} alt="Check" /> Full Website & Technical SEO Audit</li>
-                        <li><Image src={check} alt="Check" /> Competitor Analysis & Monitoring</li>
-                        <li><Image src={check} alt="Check" /> Advanced Backlink Building Campaigns</li>
-                        <li><Image src={check} alt="Check" /> Weekly Reports & SEO Manager</li>
+                        <li><Image src={check} alt="Check" /> All features of the Growth plan</li>
+                        <li><Image src={check} alt="Check" /> Unlimited Messaging Volume</li>
+                        <li><Image src={check} alt="Check" /> Chatbot & Conversational API</li>
+                        <li><Image src={check} alt="Check" /> Custom API & SDK Integration</li>
+                        <li><Image src={check} alt="Check" /> 24/7 Priority Support & SLA</li>
                       </ul>
                       <div className="pg-det-btn">
                         <Link href="/contact" className="cp-btn">Choose your plan</Link>

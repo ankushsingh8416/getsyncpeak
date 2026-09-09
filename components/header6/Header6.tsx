@@ -4,7 +4,6 @@ import React, { useState, useEffect, FormEvent } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import Link from 'next/link';
 import icon1 from '@/public/images/shape/trangle-shape04.png';
-import logo from '@/public/images/logo/logo-black03.svg';
 import icon from '@/public/images/icon/arrow-black.png';
 import MobileMenu from '../MobileMenu/MobileMenu';
 import Image from 'next/image';
@@ -28,10 +27,19 @@ const Header: React.FC = () => {
     // Add your search logic here or leave as is if search is not functional yet
   };
 
+  // TEMP: client preview restriction — only the Home link should navigate.
+  // Remove this handler (and the onClick prop below) to re-enable all header links.
+  const handleNavClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    const anchor = (e.target as HTMLElement).closest('a');
+    if (anchor && anchor.getAttribute('href') !== '/') {
+      e.preventDefault();
+    }
+  };
+
   return (
     <div id="xb-header-area" className="header-area header-style-two header-style-four header-transparent">
       <div className="header-top">
-        <span>Get 15% off on all annual plans until September 30! Join Texpo as we transform SEO 🚀</span>
+        <span>Get 15% off on all annual CPaaS plans until September 30! Bulk SMS, RCS, WhatsApp API & Voice 🚀</span>
         <span>
           <Link href="/">Learn more</Link>
           <i className="far fa-angle-right"></i>
@@ -44,29 +52,17 @@ const Header: React.FC = () => {
 
       <div className={`xb-header stricky ${isSticky ? 'stricked-menu stricky-fixed' : ''}`}>
         <div className="container">
-          <div className="header__wrap ul_li_between">
+          <div className="header__wrap ul_li_between" onClick={handleNavClick}>
             <div className="header-logo">
               <Link href="/" aria-label="Homepage">
-                <Image src={logo} alt="Logo" />
+                <h1 className="xb-brand-logo xb-brand-logo--dark">getsyncpeak</h1>
               </Link>
             </div>
 
             <div className="main-menu__wrap ul_li navbar navbar-expand-xl">
               <nav className="main-menu collapse navbar-collapse">
                 <ul>
-                  <li className="menu-item-has-children">
-                    <Link href="/" passHref>
-                      <span>Home</span>
-                    </Link>
-                    <ul className="submenu">
-                      <li><Link href="/"><span>SEO Agency</span></Link></li>
-                      <li><Link href="/home-2"><span>It Services</span></Link></li>
-                      <li><Link href="/home-3"><span>AI & Data Solutions</span></Link></li>
-                      <li><Link href="/home-4"><span>Cyber Security</span></Link></li>
-                      <li><Link href="/home-5"><span>Cloud and Devops</span></Link></li>
-                      <li><Link href="/home-6"><span>Help desk SaaS</span></Link></li>
-                    </ul>
-                  </li>
+                  <li><Link href="/" passHref><span>Home</span></Link></li>
                   <li>
                     <ScrollLink to="features" spy smooth duration={500} offset={-100} className="menu-item" role="link" tabIndex={0}>
                       Features
@@ -82,13 +78,7 @@ const Header: React.FC = () => {
                       Integration
                     </ScrollLink>
                   </li>
-                  <li className="menu-item-has-children">
-                    <Link href="/blog"><span>Blog</span></Link>
-                    <ul className="submenu">
-                      <li><Link href="/blog"><span>Blog</span></Link></li>
-                      <li><Link href="/blog-single"><span>Blog Details</span></Link></li>
-                    </ul>
-                  </li>
+                  <li><Link href="/blog"><span>Blog</span></Link></li>
                   <li><Link href="/contact"><span>Contact</span></Link></li>
                 </ul>
               </nav>
@@ -99,7 +89,7 @@ const Header: React.FC = () => {
                     <button className="xb-menu-close xb-hide-xl xb-close" onClick={() => setMobileActive(false)} aria-label="Close menu"></button>
                     <div className="xb-logo-mobile xb-hide-xl">
                       <Link href="/" aria-label="Homepage">
-                        <Image src={logo} alt="Logo" />
+                        <span className="xb-brand-logo xb-brand-logo--dark">getsyncpeak</span>
                       </Link>
                     </div>
                     <div className="xb-header-mobile-search xb-hide-xl">

@@ -39,7 +39,7 @@ const PricingPage: React.FC = () => {
                       {' '}Simple pricing
                     </span>
                     <h2 className="title">
-                      Choose the SEO package <br /> that fits your business and <br /> drives real results
+                      Choose the CPaaS plan <br /> that fits your business and <br /> scales with you
                     </h2>
                   </div>
                 </div>
@@ -61,32 +61,32 @@ const PricingPage: React.FC = () => {
             <div className="pg-fanfact-wrap ul_li_between mt-none-30">
               <div className="ap-fanfact-item pg-fanfact-item mt-30">
                 <h2 className="xb-item--number">
-                  <CountUp end={65} enableScrollSpy />
+                  <CountUp end={99} enableScrollSpy />
                   %
                 </h2>
-                <span className="xb-item--text">More website traffic</span>
+                <span className="xb-item--text">Average delivery rate</span>
                 <p className="xb-item--content">
-                  Our clients experience a 65% increase in organic traffic year-over-year.
+                  Our carrier-grade routing keeps SMS, RCS and WhatsApp delivery consistently reliable.
                 </p>
               </div>
               <div className="ap-fanfact-item pg-fanfact-item mt-30">
                 <h2 className="xb-item--number">
-                  <CountUp end={48} enableScrollSpy />
+                  <CountUp end={40} enableScrollSpy />
                   %
                 </h2>
-                <span className="xb-item--text">Conversion rate growth</span>
+                <span className="xb-item--text">Lower cost per message</span>
                 <p className="xb-item--content">
-                  Clients grow their conversion rates by 48% annually with our SEO strategies.
+                  Clients cut messaging costs by up to 40% after switching to getsyncpeak&apos;s routing.
                 </p>
               </div>
               <div className="ap-fanfact-item pg-fanfact-item mt-30">
                 <h2 className="xb-item--number">
-                  <CountUp end={55} enableScrollSpy />
-                  %
+                  <CountUp end={5} enableScrollSpy />
+                  {' '}min
                 </h2>
-                <span className="xb-item--text">Higher search rankings</span>
+                <span className="xb-item--text">Average setup time</span>
                 <p className="xb-item--content">
-                  Our clients see a 55% boost in search rankings within the first 6 months.
+                  Get your API key and send your first SMS or WhatsApp message in minutes.
                 </p>
               </div>
             </div>

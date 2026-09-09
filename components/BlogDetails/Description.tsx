@@ -7,12 +7,12 @@ interface DescriptionProps {}
 const Description: FC<DescriptionProps> = () => {
   return (
     <div>
-      <h3 className="item_details_info_heading">Optimizing growth with IT infrastructure</h3>
+      <h3 className="item_details_info_heading">Optimizing growth with messaging infrastructure</h3>
       <p>
-        They provide a comprehensive and in-depth analysis that goes beyond surface-level. Join us as we uncover the secrets of IT
-        solutions, guided by the wisdom and expertise of innomax thought leaders. Prepare to be inspired, informed, and empowered to
-        navigate the ever-landscape of technology with confidence and clarity. you&apos;ll gain access to unparalleled expertise and
-        discover new possibilities for success in the ever-evolving world of technology success in the ever-evolving world of technology.y.
+        They provide a comprehensive and in-depth analysis that goes beyond surface-level. Join us as we uncover the secrets of CPaaS
+        solutions, guided by the wisdom and expertise of getsyncpeak thought leaders. Prepare to be inspired, informed, and empowered to
+        navigate the ever-changing landscape of customer communication with confidence and clarity. You&apos;ll gain access to unparalleled
+        expertise and discover new possibilities for growth in the ever-evolving world of messaging and voice technology.
       </p>
 
       <div className="row mb-90 align-items-center mt-none-30">
@@ -45,9 +45,9 @@ const Description: FC<DescriptionProps> = () => {
         </div>
       </div>
 
-      <h3 className="item_details_info_heading">3 Reasons to investing at this moment</h3>
+      <h3 className="item_details_info_heading">3 Reasons to invest in CPaaS right now</h3>
       <p>
-        Here are three key reasons emphasizing the importance of optimizing ICO infrastructure <br /> for efficiency and growth:
+        Here are three key reasons emphasizing the importance of optimizing your messaging infrastructure <br /> for efficiency and growth:
       </p>
       <ul className="iconlist_block numlist_block list-unstyled">
         <li>

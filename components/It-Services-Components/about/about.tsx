@@ -22,21 +22,21 @@ const aboutItems: AboutItem[] = [
     icon: aIcon1,
     heading: 'About us',
     content:
-      'Innomax IT Services provides innovative, scalable solutions to drive business growth and efficiency. Our expert team ensures your business remains competitive with tailored IT services and reliable support for long-term success.',
+      'getsyncpeak is a CPaaS solutions provider offering Bulk SMS, DLT registration, RCS, WhatsApp Business API and voice calling on one unified platform. Our team helps businesses reach customers reliably at scale.',
   },
   {
     img: about2,
     icon: aIcon2,
     heading: 'Our mission',
     content:
-      'To deliver cutting-edge IT solutions that drive business growth, boost productivity, and ensure long-term helping competitiveness. We are dedicated to scalable, reliable technology and exceptional support.',
+      'To give every business a single, reliable platform for SMS, RCS, WhatsApp and voice communication, backed by compliant delivery, transparent pricing and hands-on support.',
   },
   {
     img: about3,
     icon: aIcon3,
     heading: 'Our vision',
     content:
-      'Our Vision is to empower businesses with innovative IT solutions that drive growth, efficiency, and long-term success. We deliver scalable technology to keep you competitive and ready for the future.',
+      'To be the CPaaS partner businesses trust for every customer conversation, powering messaging and voice communication that scales from startup to enterprise.',
   },
 ];
 

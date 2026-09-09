@@ -75,18 +75,18 @@ const BlogSidebar = () => {
           <h3 className="sidebar_widget_title">Tags</h3>
           <ul className="tags_block list-unstyled">
             {[
-              'Cybersecurity',
-              'AppDev',
-              'SEO',
-              'UXDesign',
-              'TechSolutions',
-              'IT',
-              'Solution',
-              'Consultants',
-              'Cloud',
-              'Optimization',
+              'BulkSMS',
+              'WhatsAppAPI',
+              'RCS',
+              'DLT',
+              'VoiceAPI',
+              'OTP',
+              'Chatbot',
+              'CPaaS',
+              'API',
+              'Compliance',
               'Startup',
-              'Data',
+              'Messaging',
             ].map((tag, idx) => (
               <li key={idx}>
                 <Link href={`/blog?tag=${tag.toLowerCase()}`}>{tag}</Link>

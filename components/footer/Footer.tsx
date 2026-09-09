@@ -33,7 +33,7 @@ const Footer: React.FC<FooterProps> = () => {
               </div>
               <div className="xb-item--holder">
                 <p className="xb-item--content">Write to us</p>
-                <h4 className="xb-item--title">innomax@gmail.com</h4>
+                <h4 className="xb-item--title">support@getsyncpeak.io</h4>
               </div>
             </div>
             <div className="info-item ul_li">
@@ -43,8 +43,8 @@ const Footer: React.FC<FooterProps> = () => {
                 </span>
               </div>
               <div className="xb-item--holder">
-                <p className="xb-item--content">Call Us (USA)</p>
-                <h4 className="xb-item--title">+(1) 1230 452 8597</h4>
+                <p className="xb-item--content">Call Us (India)</p>
+                <h4 className="xb-item--title">+91 98765 43210</h4>
               </div>
             </div>
             <div className="info-item ul_li">
@@ -55,7 +55,7 @@ const Footer: React.FC<FooterProps> = () => {
               </div>
               <div className="xb-item--holder">
                 <p className="xb-item--content">Our Office</p>
-                <h4 className="xb-item--title">Waterloo, Park, Australia</h4>
+                <h4 className="xb-item--title">Gurugram, Haryana, India</h4>
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@ const Footer: React.FC<FooterProps> = () => {
             <div className="sa-newslatter footer-widget">
               <span className="xb-item--sub-title">Newsletter</span>
               <p className="xb-item--content clr-white">
-                Sign up to techco weekly newsletter to get the latest updates.
+                Sign up to getsyncpeak&apos;s weekly newsletter to get the latest CPaaS updates.
               </p>
               <form className="xb-item--input_field pos-rel" onSubmit={SubmitHandler}>
                 <input type="email" name="gmail" id="text6" placeholder="Enter your email" required />
@@ -78,7 +78,7 @@ const Footer: React.FC<FooterProps> = () => {
                 </button>
               </form>
               <span className="xb-item--text">
-                By continuing, you agree to innomax{' '}
+                By continuing, you agree to getsyncpeak&apos;s{' '}
                 <Link href="/terms-conditions">Terms</Link> of Use and{' '}
                 <Link href="/privacy-policy">Privacy Policy</Link>
               </span>
@@ -118,11 +118,11 @@ const Footer: React.FC<FooterProps> = () => {
               <span className="xb-item--sub-title">Our Industries</span>
               <ul className="xb-item--holder list-unstyled">
                 <li className="xb-item--list"><Link href="/">Healthcare</Link></li>
-                <li className="xb-item--list"><Link href="/">Lawyers</Link></li>
+                <li className="xb-item--list"><Link href="/">Banking & Finance</Link></li>
+                <li className="xb-item--list"><Link href="/">E-commerce</Link></li>
                 <li className="xb-item--list"><Link href="/">Real estate</Link></li>
                 <li className="xb-item--list"><Link href="/">Insurance</Link></li>
-                <li className="xb-item--list"><Link href="/">Crypto</Link></li>
-                <li className="xb-item--list"><Link href="/">Automotive</Link></li>
+                <li className="xb-item--list"><Link href="/">Logistics</Link></li>
               </ul>
             </div>
           </div>
@@ -130,7 +130,7 @@ const Footer: React.FC<FooterProps> = () => {
           {/* Footer Bottom */}
           <div className="footer-copyright mt-70 ul_li_between">
             <p className="copyright mt-20">
-              Copyright © 2025 <Link href="/">innomax</Link>. All rights reserved.
+              Copyright © 2025 <Link href="/">getsyncpeak</Link>. All rights reserved.
             </p>
             <ul className="footer-link ul_li mt-20">
               <li><span>Follow us :</span></li>

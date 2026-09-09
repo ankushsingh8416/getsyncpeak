@@ -27,10 +27,10 @@ export default function CaseStudySingle() {
               <div className="col-lg-9 mt-30">
                 <div className="page-title-box">
                   <span className="sub-title">
-                    <Image src={icon} alt="" width={20} height={20} /> Online media management..
+                    <Image src={icon} alt="" width={20} height={20} /> WhatsApp campaign management..
                   </span>
                   <h2 className="title">
-                    Discover our case studies <br /> highlighting transformative <br /> SEO and IT solutions
+                    Discover our case studies <br /> highlighting transformative <br /> CPaaS solutions
                   </h2>
                 </div>
               </div>
@@ -58,10 +58,18 @@ export default function CaseStudySingle() {
       <div className="sd-ser-content_wrap pb-90">
         <div className="container">
           <div className="sd-ser-content">
-            <h2 className="sd-title">Online media management boost your presence</h2>
+            <h2 className="sd-title">WhatsApp campaigns that boosted customer engagement</h2>
             <p className="sd-content">
-              Effective online media management is essential for businesses looking to strengthen their digital
-              footprint... (trimmed for brevity)
+              A fast-growing e-commerce retailer was relying on email alone for order updates and promotions,
+              leading to low open rates and a flood of support calls asking about delivery status. getsyncpeak
+              moved their customer communication onto the WhatsApp Business API, combining automated order
+              updates with a lightweight chatbot for common support questions.
+            </p>
+            <br />
+            <p className="sd-content">
+              Within the first quarter, message open rates rose sharply, support call volume dropped, and the
+              team was able to launch targeted promotional campaigns directly on WhatsApp with measurable
+              conversion tracking built into the getsyncpeak dashboard.
             </p>
           </div>
         </div>
@@ -75,7 +83,7 @@ export default function CaseStudySingle() {
                 <Image src={cIcon1} alt="" />
               </div>
               <h6 className="xb-text">
-                client : <span> innomax</span>
+                client : <span> getsyncpeak</span>
               </h6>
             </div>
             <div className="csd-item ul_li">
@@ -83,7 +91,7 @@ export default function CaseStudySingle() {
                 <Image src={cIcon2} alt="" />
               </div>
               <h6 className="xb-text">
-                services : <span> Marketing</span>
+                services : <span> WhatsApp Business API</span>
               </h6>
             </div>
             <div className="csd-item ul_li">
@@ -99,7 +107,7 @@ export default function CaseStudySingle() {
                 <Image src={cIcon4} alt="" />
               </div>
               <h6 className="xb-text">
-                location : <span> New York,NY,USA</span>
+                location : <span> Gurugram, India</span>
               </h6>
             </div>
           </div>
@@ -112,17 +120,18 @@ export default function CaseStudySingle() {
             <div className="sd-heading">
               <h2 className="sd-title">Project requirement</h2>
               <p className="sd-content">
-                Our client seeks optimize presence across platforms... (trimmed)
+                The client needed a single channel to send order confirmations, shipping updates and
+                promotional offers, while cutting down the volume of repetitive support calls.
               </p>
             </div>
 
             <div className="sd-list-item ul_li">
               <ul className="sd-ser-list list-unstyled">
                 <li>
-                  <Image src={cIcon} alt="" /> Platform Audit & Strategy Development.
+                  <Image src={cIcon} alt="" /> WhatsApp Number & Template Setup.
                 </li>
                 <li>
-                  <Image src={cIcon} alt="" /> Content Creation & Curation.
+                  <Image src={cIcon} alt="" /> Chatbot Flow Design & Automation.
                 </li>
               </ul>
             </div>
@@ -130,7 +139,9 @@ export default function CaseStudySingle() {
             <div className="sd-heading csd-heading pt-90">
               <h2 className="sd-title">Solution & result</h2>
               <p className="sd-content">
-                <span>Solution:</span> Our online media management services streamline...
+                <span>Solution:</span> getsyncpeak set up a verified WhatsApp Business profile, registered
+                order-update templates, and built a chatbot flow that answers common questions and hands
+                off to a live agent when needed, cutting support call volume and lifting campaign engagement.
               </p>
             </div>
 

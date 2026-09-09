@@ -49,10 +49,10 @@ const TeamSection: React.FC = () => {
 
         <div className="team-wrap ul_li_between">
           <ul className="xb-item--skill list-unstyled">
-            <li>Skilled and Experienced Team.</li>
-            <li>Comprehensive IT Support.</li>
-            <li>Expertise Across Technologies.</li>
-            <li>24/7 Support and Monitoring.</li>
+            <li>Skilled Messaging & Voice Engineers.</li>
+            <li>DLT & Compliance Expertise.</li>
+            <li>Multi-Channel API Specialists.</li>
+            <li>24/7 Delivery Monitoring & Support.</li>
           </ul>
           <div className="team-btn">
             <Link href="/team" className="thm-btn thm-btn--fill_icon">
@@ -70,11 +70,11 @@ const TeamSection: React.FC = () => {
           </div>
           <div className="xb-item--holders">
             <h3 className="xb-item--title">
-              Our dedicated IT experts team committed to your success
+              A dedicated CPaaS team committed to your delivery success
             </h3>
             <p className="xb-item--content">
-              Our dedicated IT experts are committed to your success, delivering tailored, scalable
-              solutions that drive growth and efficiency. Your success is our focus.
+              From DLT registration to API integration and ongoing delivery monitoring, our team
+              is with you at every step, keeping your messages reaching every customer, every time.
             </p>
           </div>
         </div>

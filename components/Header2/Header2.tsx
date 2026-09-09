@@ -2,9 +2,6 @@
 
 import React, { useState, useEffect, FC } from "react";
 import Link from "next/link";
-import Image from "next/image";
-import logoWhite from "@/public/images/logo/logo-white.svg";
-import logoBlack from "@/public/images/logo/logo-black02.svg";
 import MobileMenu from "../MobileMenu/MobileMenu";
 import MegaMenu1 from "./MegaMenu1";
 import MegaMenu2 from "./MegaMenu2";
@@ -26,18 +23,27 @@ const Header2: FC = () => {
     e.preventDefault();
   };
 
+  // TEMP: client preview restriction — only the Home link should navigate.
+  // Remove this handler (and the onClick prop below) to re-enable all header links.
+  const handleNavClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    const anchor = (e.target as HTMLElement).closest('a');
+    if (anchor && anchor.getAttribute('href') !== '/') {
+      e.preventDefault();
+    }
+  };
+
   return (
     <div id="xb-header-area" className="header-area header-style-one header-transparent">
       <div className={`xb-header stricky ${isSticky ? "stricked-menu stricky-fixed" : ""}`}>
         <div className="container-fluid">
-          <div className="header__wrap pd-70 ul_li_between">
+          <div className="header__wrap pd-70 ul_li_between" onClick={handleNavClick}>
             {/* Logo */}
             <div className="header-logo">
               <Link href="/" className="logo01">
-                <Image src={logoWhite} alt="Innomax Logo White" />
+                <h1 className="xb-brand-logo xb-brand-logo--light">getsyncpeak</h1>
               </Link>
               <Link href="/" className="logo02">
-                <Image src={logoBlack} alt="Innomax Logo Black" />
+                <h1 className="xb-brand-logo xb-brand-logo--dark">getsyncpeak</h1>
               </Link>
             </div>
 
@@ -45,17 +51,7 @@ const Header2: FC = () => {
             <div className="main-menu__wrap ul_li navbar navbar-expand-xl">
               <nav className="main-menu collapse navbar-collapse">
                 <ul>
-                  <li className="menu-item-has-children">
-                    <Link href="/"><span>Home</span></Link>
-                    <ul className="submenu">
-                      <li><Link href="/"><span>SEO Agency</span></Link></li>
-                      <li><Link href="/home-2"><span>IT Services</span></Link></li>
-                      <li><Link href="/home-3"><span>AI & Data Solutions</span></Link></li>
-                      <li><Link href="/home-4"><span>Cyber Security</span></Link></li>
-                      <li><Link href="/home-5"><span>Cloud and DevOps</span></Link></li>
-                      <li><Link href="/home-6"><span>Help Desk SaaS</span></Link></li>
-                    </ul>
-                  </li>
+                  <li><Link href="/"><span>Home</span></Link></li>
                   <li className="menu-item-has-children megamenu">
                     <Link href="/"><span>Company</span></Link>
                     <MegaMenu1 />
@@ -64,20 +60,8 @@ const Header2: FC = () => {
                     <Link href="/service"><span>Services</span></Link>
                     <MegaMenu2 />
                   </li>
-                  <li className="menu-item-has-children">
-                    <Link href="/casestudy"><span>Case Study</span></Link>
-                    <ul className="submenu">
-                      <li><Link href="/casestudy"><span>Case Study</span></Link></li>
-                      <li><Link href="/casestudy-details"><span>Case Study Details</span></Link></li>
-                    </ul>
-                  </li>
-                  <li className="menu-item-has-children">
-                    <Link href="/blog"><span>Blog</span></Link>
-                    <ul className="submenu">
-                      <li><Link href="/blog"><span>Blog</span></Link></li>
-                      <li><Link href="/blog-single"><span>Blog Details</span></Link></li>
-                    </ul>
-                  </li>
+                  <li><Link href="/casestudy"><span>Case Study</span></Link></li>
+                  <li><Link href="/blog"><span>Blog</span></Link></li>
                   <li>
                     <Link href="/contact"><span>Contact</span></Link>
                   </li>
@@ -92,7 +76,7 @@ const Header2: FC = () => {
 
                     <div className="xb-logo-mobile xb-hide-xl">
                       <Link href="/" rel="home">
-                        <Image src={logoWhite} alt="Innomax Logo" />
+                        <span className="xb-brand-logo xb-brand-logo--light">getsyncpeak</span>
                       </Link>
                     </div>
 

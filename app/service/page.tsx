@@ -43,15 +43,15 @@ const ServicePage: React.FC = () => {
                       Main Services
                     </span>
                     <h2 className="title">
-                      Discover our comprehensive <br /> SEO services to boost your <br /> online presence
+                      Discover our complete <br /> CPaaS suite to power your <br /> customer engagement
                     </h2>
                   </div>
                 </div>
                 <div className="col-lg-3 mt-30">
                   <div className="count-box">
-                    <h2 className="number">09</h2>
+                    <h2 className="number">06</h2>
                     <span className="text">
-                      Professional top <br /> services
+                      Core messaging <br /> & voice services
                     </span>
                   </div>
                 </div>

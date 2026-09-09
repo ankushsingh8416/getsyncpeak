@@ -35,10 +35,10 @@ const ServiceSinglePage = () => {
                   <div className="col-lg-9 mt-30">
                     <div className="page-title-box">
                       <span className="sub-title">
-                        <Image src={icon} alt="" /> Niche research Services
+                        <Image src={icon} alt="" /> WhatsApp Business API
                       </span>
                       <h2 className="title">
-                        Discover our comprehensive <br /> SEO services to boost your <br /> online presence
+                        Discover our comprehensive <br /> CPaaS services to boost your <br /> customer engagement
                       </h2>
                     </div>
                   </div>
@@ -69,13 +69,13 @@ const ServiceSinglePage = () => {
           <div className="sd-ser-content_wrap pb-110">
             <div className="container">
               <div className="sd-ser-content">
-                <h2 className="sd-title">Boost your authority with link building</h2>
+                <h2 className="sd-title">Engage customers where they already are</h2>
                 <p className="sd-content">
-                  In today’s competitive digital landscape, link building is essential for enhancing your website&apos;s authority and visibility. By acquiring high-quality backlinks from reputable sources, you not only improve your search engine rankings but also establish credibility within your industry. This strategic approach involves identifying relevant opportunities, fostering relationships with influential websites, and creating valuable content that encourages organic links. As your backlink profile grows, so does your domain authority, leading to increased organic traffic and greater trust from both users and search engines
+                  The WhatsApp Business API lets you send order updates, appointment reminders, delivery alerts and support replies directly on WhatsApp, the app your customers open every day. Verified business profiles, rich media messages and quick-reply buttons help you build trust while cutting down on missed calls and unread emails. getsyncpeak handles the Meta approval process, template registration and number setup so you can focus on the conversation, not the paperwork.
                 </p>
                 <br />
                 <p className="sd-content">
-                  Finally, consistently monitor your progress through analytics, adjusting your tactics as needed to maximize results. By focusing on quality over quantity, you can cultivate a robust network of backlinks that significantly boosts your site&apos;s authority and enhances its overall performance in search engine results. Implement a targeted outreach campaign to connect with relevant websites and industry influencers, emphasizing the value your content brings.
+                  Once live, you can route conversations to a chatbot for instant answers or hand them off to a live agent when a human touch is needed. Delivery and read receipts, contact management and detailed analytics are built in from day one, so you always know how your messages are performing and where to improve.
                 </p>
               </div>
             </div>
@@ -86,7 +86,7 @@ const ServiceSinglePage = () => {
               <div className="sd-heading">
                 <h2 className="sd-title">Service process</h2>
                 <p className="sd-content">
-                  Our service process begins with a thorough consultation and website audit, followed by competitor analysis to inform a tailored marketing campaign. We maintain regular communication and provide comprehensive reporting to ensure optimal results and continuous improvement.
+                  Our onboarding starts with a consultation on your use case, followed by number and template setup, so your first campaign launches with confidence. We stay involved with delivery monitoring and reporting for continuous improvement.
                 </p>
               </div>
               <div className="sd-process_inner ul_li">
@@ -94,24 +94,24 @@ const ServiceSinglePage = () => {
                   <div className="xb-item--icon">
                     <Image src={sImg1} alt="" />
                   </div>
-                  <h3 className="xb-item--title">Initial website audit</h3>
-                  <p className="xb-item--contact">Assess your website&apos;s SEO performance and backlink.</p>
+                  <h3 className="xb-item--title">Use case consultation</h3>
+                  <p className="xb-item--contact">Assess your messaging needs and recommend the right channel.</p>
                   <span className="xb-item--number">01</span>
                 </div>
                 <div className="sd-process-item">
                   <div className="xb-item--icon">
                     <Image src={sImg2} alt="" />
                   </div>
-                  <h3 className="xb-item--title">Competitor analysis</h3>
-                  <p className="xb-item--contact">Analyze link strategies to find valuable opportunities.</p>
+                  <h3 className="xb-item--title">Number & template setup</h3>
+                  <p className="xb-item--contact">Register your WhatsApp number and get message templates approved.</p>
                   <span className="xb-item--number">02</span>
                 </div>
                 <div className="sd-process-item">
                   <div className="xb-item--icon">
                     <Image src={sImg3} alt="" />
                   </div>
-                  <h3 className="xb-item--title">Targeted campaign</h3>
-                  <p className="xb-item--contact">Connect with relevant sites to secure quality backlinks.</p>
+                  <h3 className="xb-item--title">API integration</h3>
+                  <p className="xb-item--contact">Connect our API or chatbot builder to your app or CRM.</p>
                   <span className="xb-item--number">03</span>
                 </div>
                 <div className="sd-process-item">
@@ -119,7 +119,7 @@ const ServiceSinglePage = () => {
                     <Image src={sImg4} alt="" />
                   </div>
                   <h3 className="xb-item--title">Reporting</h3>
-                  <p className="xb-item--contact">Track performance and provide regular progress updates.</p>
+                  <p className="xb-item--contact">Track delivery, reads and replies with regular progress updates.</p>
                   <span className="xb-item--number">04</span>
                 </div>
                 <div className="sd-shape">
@@ -135,36 +135,36 @@ const ServiceSinglePage = () => {
                 <div className="sd-heading">
                   <h2 className="sd-title">Services outcome</h2>
                   <p className="sd-content">
-                    Here are six key points related to &apos;Boost Your Authority with Link Building&apos; in the context of digital transformation and risk management <br /> solutions for Fortune 500 companies, with a bit more detail:
+                    Here&apos;s what businesses typically see after moving customer conversations onto getsyncpeak&apos;s WhatsApp Business API:
                   </p>
                 </div>
                 <div className="sd-list-item ul_li">
                   <ul className="sd-ser-list list-unstyled">
                     <li>
                       <Image src={sicon} alt="" />
-                      Enhance Credibility and Trust.
+                      Higher open and response rates.
                     </li>
                     <li>
                       <Image src={sicon} alt="" />
-                      Improve Search Engine Rankings.
+                      Faster customer support resolution.
                     </li>
                     <li>
                       <Image src={sicon} alt="" />
-                      Foster Strategic Partnerships.
+                      Fewer missed calls and unread emails.
                     </li>
                   </ul>
                   <ul className="sd-ser-list list-unstyled">
                     <li>
                       <Image src={sicon} alt="" />
-                      Showcase Thought Leadership.
+                      Automated order and delivery updates.
                     </li>
                     <li>
                       <Image src={sicon} alt="" />
-                      Drive Targeted Traffic.
+                      Lower support cost per conversation.
                     </li>
                     <li>
                       <Image src={sicon} alt="" />
-                      Support Long-Term Growth.
+                      Stronger long-term customer retention.
                     </li>
                   </ul>
                 </div>

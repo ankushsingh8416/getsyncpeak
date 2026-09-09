@@ -22,11 +22,11 @@ interface RoadmapItem {
 }
 
 const roadmapData: RoadmapItem[] = [
-  { quarter: 'Q-1', year: '2012', title: 'Innomax was founded', content: 'Innomax started in USA with only five employees...' },
-  { quarter: 'Q-2', year: '2014', title: 'We grew to 40 full-time employees', content: 'In 2014, Innomax completed over 100 SEO audits...' },
-  { quarter: 'Q-3', year: '2016', title: 'Top 3 SEO Company', content: 'By 2016, our hard work was starting to be recognized...' },
-  { quarter: 'Q-4', year: '2018', title: 'Global Expertise', content: 'By 2018, InnoMax attracted international clients...' },
-  { quarter: 'Q-5', year: '2024', title: 'Present', content: 'Today, InnoMax has over 200 employees...' },
+  { quarter: 'Q-1', year: '2012', title: 'getsyncpeak was founded', content: 'getsyncpeak started in India with only five employees...' },
+  { quarter: 'Q-2', year: '2014', title: 'We grew to 40 full-time employees', content: 'In 2014, getsyncpeak launched Bulk SMS and DLT compliance tools for its first 100 customers...' },
+  { quarter: 'Q-3', year: '2016', title: 'Launched WhatsApp & Voice APIs', content: 'By 2016, our platform expanded to WhatsApp Business API and voice calling...' },
+  { quarter: 'Q-4', year: '2018', title: 'Global Expertise', content: 'By 2018, getsyncpeak attracted international clients...' },
+  { quarter: 'Q-5', year: '2024', title: 'Present', content: 'Today, getsyncpeak has over 200 employees...' },
 ];
 
 const RoadmapSlider: React.FC = () => {

@@ -35,7 +35,7 @@ const ContactSection: React.FC<ContactSectionProps> = (props) => {
               <div className="xb-item--holder">
                 <span className="xb-item--sub-title"><Image src={icon4} alt="Direct box icon" /> Let&apos;s connect!</span>
                 <h2 className="xb-item--title">
-                  Send us a message, and we&apos;ll promptly <br /> discuss your project with you.
+                  Send us a message, and we&apos;ll promptly <br /> discuss your messaging needs with you.
                 </h2>
               </div>
               <ContactForm />
@@ -48,7 +48,7 @@ const ContactSection: React.FC<ContactSectionProps> = (props) => {
                 <Image src={cImg} alt="Contact image" />
               </div>
               <div className="xb-item--author">
-                <h3 className="xb-item--name">Niko Rockensub</h3>
+                <h3 className="xb-item--name">Arjun Kapoor</h3>
                 <span className="xb-item--desig">Chief Operating Officer (COO)</span>
               </div>
               <ul className="social-icon list-unstyled ul_li">

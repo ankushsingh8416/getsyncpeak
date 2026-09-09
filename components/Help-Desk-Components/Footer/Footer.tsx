@@ -53,13 +53,13 @@ const Footer: React.FC = () => {
                     <span>
                       <Image src={icon1} alt="Phone icon" />
                     </span>
-                    +618 8967 5983
+                    +91 98765 43210
                   </li>
                   <li className="xb-item--email">
                     <span>
                       <Image src={icon2} alt="Email icon" />
                     </span>
-                    innomax@gmail.com
+                    support@getsyncpeak.io
                   </li>
                 </ul>
                 <ul className="xb-item--social-link list-unstyled ul_li mt-45">
@@ -129,8 +129,8 @@ const Footer: React.FC = () => {
           <div className="footer-copyright ul_li_between">
             <p className="copyright mt-20">
               Copyright © 2025{' '}
-              <Link href="/home-6" aria-label="Innomax homepage">
-                innomax
+              <Link href="/home-6" aria-label="getsyncpeak homepage">
+                getsyncpeak
               </Link>
               . All rights reserved.
             </p>

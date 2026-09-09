@@ -33,7 +33,7 @@ const PrivacyPage: React.FC = () => {
                       <Image src={icon} alt="Privacy Icon" /> Privacy Policy
                     </span>
                     <h2 className="title">
-                      Innomax website privacy <br />
+                      getsyncpeak website privacy <br />
                       policy your access and <br />
                       usage rights
                     </h2>
@@ -74,20 +74,20 @@ const PrivacyPage: React.FC = () => {
                     {
                       title: 'Data controller and data collection',
                       content: [
-                        'Innomax is committed to safeguarding your privacy...',
+                        'getsyncpeak is committed to safeguarding your privacy...',
                         'Certain types of data may be necessary to access and utilize specific features...',
                       ],
                     },
                     {
                       title: 'User responsibilities',
                       content: [
-                        'Users are responsible for any third-party data shared via the Innomax website...',
+                        'Users are responsible for any third-party data shared via the getsyncpeak website...',
                       ],
                     },
                     {
                       title: 'Data processing and security',
                       content: [
-                        'Data is processed using secure IT systems at Innomax’s operational offices...',
+                        'Data is processed using secure IT systems at getsyncpeak’s operational offices...',
                       ],
                     },
                     {
@@ -99,7 +99,7 @@ const PrivacyPage: React.FC = () => {
                     {
                       title: 'Legal action',
                       content: [
-                        'Innomax may disclose personal data to comply with legal obligations...',
+                        'getsyncpeak may disclose personal data to comply with legal obligations...',
                       ],
                     },
                     {
@@ -108,7 +108,7 @@ const PrivacyPage: React.FC = () => {
                         'Users have the right to access, update, or delete their personal data...',
                       ],
                       list: [
-                        'Users can request information about the personal data Innomax holds.',
+                        'Users can request information about the personal data getsyncpeak holds.',
                         'Correct any inaccurate or incomplete data.',
                         'Request the deletion of their data when it’s no longer needed.',
                         'Request their data in a transferable format.',
@@ -121,19 +121,19 @@ const PrivacyPage: React.FC = () => {
                     {
                       title: "'Do not track' requests",
                       content: [
-                        'Innomax does not currently support “Do Not Track” requests...',
+                        'getsyncpeak does not currently support “Do Not Track” requests...',
                       ],
                     },
                     {
                       title: 'Policy updates',
                       content: [
-                        'Innomax may update this Privacy Policy periodically...',
+                        'getsyncpeak may update this Privacy Policy periodically...',
                       ],
                     },
                     {
                       title: 'Retargeting and ad cookies',
                       content: [
-                        'Innomax uses cookies for advertising purposes through partners like AdRoll...',
+                        'getsyncpeak uses cookies for advertising purposes through partners like AdRoll...',
                       ],
                     },
                   ].map((section, i) => (
@@ -159,7 +159,7 @@ const PrivacyPage: React.FC = () => {
                         Click here
                       </Link>{' '}
                       to contact us regarding this Privacy Policy or other related issues. You can also send us an e-mail on:{' '}
-                      <a href="mailto:contact@innomax.com">contact@innomax.com</a>
+                      <a href="mailto:contact@getsyncpeak.com">contact@getsyncpeak.com</a>
                     </p>
                   </div>
                 </div>

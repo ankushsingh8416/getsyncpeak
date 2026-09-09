@@ -26,7 +26,7 @@ const Footer = () => {
               </div>
               <h2 className="xb-item--title">Subscribe us</h2>
               <span className="xb-item--content">
-                Want to stay up to date? Sign up for innomax it services update.
+                Want to stay up to date? Sign up for getsyncpeak CPaaS product updates.
               </span>
               <form className="xb-item--contact mt-35" onSubmit={SubmitHandler}>
                 <div className="xb-item--input_field pos-rel">
@@ -52,7 +52,7 @@ const Footer = () => {
           <div className="col-lg-8">
             <div className="xb-footer is-footer ml-75">
               <ul className="footer-nav list-unstyled ul_li">
-                <li><Link href="/home">Home</Link></li>
+                <li><Link href="/">Home</Link></li>
                 <li><Link href="/about">About</Link></li>
                 <li>
                   <Link href="/career">Career</Link>
@@ -74,22 +74,22 @@ const Footer = () => {
                 <div className="footer-widget">
                   <span className="xb-item--sub-title">Office address</span>
                   <ul className="xb-item--holder list-unstyled">
-                    <li className="xb-item--list"><Link href="/">Texpo gmbH</Link></li>
-                    <li className="xb-item--list"><Link href="/">stefan-george-ring 23</Link></li>
-                    <li className="xb-item--list"><Link href="/">81929 münchen</Link></li>
-                    <li className="xb-item--list"><Link href="/">germany</Link></li>
+                    <li className="xb-item--list"><Link href="/">getsyncpeak Technologies</Link></li>
+                    <li className="xb-item--list"><Link href="/">Cyber City, Sector 24</Link></li>
+                    <li className="xb-item--list"><Link href="/">Gurugram, Haryana</Link></li>
+                    <li className="xb-item--list"><Link href="/">India</Link></li>
                   </ul>
                 </div>
                 <div className="footer-info footer-widget">
                   <span className="xb-item--sub-title">Email us</span>
-                  <h4 className="xb-item--email">texpo@gmail.com</h4>
+                  <h4 className="xb-item--email">support@getsyncpeak.io</h4>
                   <span className="xb-item--sub-title">call us</span>
-                  <h4 className="xb-item--number">+(1) 1230 452 8597</h4>
+                  <h4 className="xb-item--number">+91 98765 43210</h4>
                 </div>
               </div>
               <div className="footer-copyright mt-50 ul_li_between">
                 <p className="copyright mt-20">
-                  Copyright © 2025 <Link href="/home">innomax</Link>. All rights reserved.
+                  Copyright © 2025 <Link href="/">getsyncpeak</Link>. All rights reserved.
                 </p>
                 <ul className="footer-links ul_li mt-20">
                   <li><Link href="/terms-conditions">Terms of Up</Link></li>

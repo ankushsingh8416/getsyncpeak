@@ -24,8 +24,8 @@ const BlogPage: React.FC = () => {
                                             <Image src={icon} alt="Blog Icon" /> Blog
                                         </span>
                                         <h2 className="title">
-                                            Expert insights from our SEO <br />
-                                            & IT solutions blog your <br />
+                                            Expert insights from our CPaaS <br />
+                                            & messaging solutions blog your <br />
                                             source for success
                                         </h2>
                                     </div>

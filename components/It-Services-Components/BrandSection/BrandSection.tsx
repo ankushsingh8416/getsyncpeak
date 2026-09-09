@@ -23,60 +23,60 @@ const BrandSection: React.FC = () => {
         <div className="xb-brand-wrap">
           <div className="xb-brand-item">
             <div className="xb-brand-single xb-brand-hover">
-              <Link href="/home-2" aria-label="Brand logo 1">
+              <Link href="#" aria-label="Brand logo 1">
                 <Image src={brand1} alt="Brand logo 1" />
               </Link>
-              <Link href="/home-2" className="xb-overlay" aria-hidden="true" tabIndex={-1}></Link>
+              <Link href="#" className="xb-overlay" aria-hidden="true" tabIndex={-1}></Link>
             </div>
             <div className="xb-brand-single xb-brand-hover">
-              <Link href="/home-2" aria-label="Brand logo 2">
+              <Link href="#" aria-label="Brand logo 2">
                 <Image src={brand2} alt="Brand logo 2" />
               </Link>
-              <Link href="/home-2" className="xb-overlay" aria-hidden="true" tabIndex={-1}></Link>
+              <Link href="#" className="xb-overlay" aria-hidden="true" tabIndex={-1}></Link>
             </div>
           </div>
 
           <div className="xb-brand-item xb-brand-item--big xb-brand-hover">
-            <Link href="/home-2" aria-label="Brand logo 3">
+            <Link href="#" aria-label="Brand logo 3">
               <Image src={brand3} alt="Brand logo 3" />
             </Link>
-            <Link href="/home-2" className="xb-overlay" aria-hidden="true" tabIndex={-1}></Link>
+            <Link href="#" className="xb-overlay" aria-hidden="true" tabIndex={-1}></Link>
           </div>
 
           <div className="xb-brand-item">
             <div className="xb-brand-single xb-brand-hover">
-              <Link href="/home-2" aria-label="Brand logo 4">
+              <Link href="#" aria-label="Brand logo 4">
                 <Image src={brand4} alt="Brand logo 4" />
               </Link>
-              <Link href="/home-2" className="xb-overlay" aria-hidden="true" tabIndex={-1}></Link>
+              <Link href="#" className="xb-overlay" aria-hidden="true" tabIndex={-1}></Link>
             </div>
             <div className="xb-brand-single xb-brand-hover">
-              <Link href="/home-2" aria-label="Brand logo 5">
+              <Link href="#" aria-label="Brand logo 5">
                 <Image src={brand5} alt="Brand logo 5" />
               </Link>
-              <Link href="/home-2" className="xb-overlay" aria-hidden="true" tabIndex={-1}></Link>
+              <Link href="#" className="xb-overlay" aria-hidden="true" tabIndex={-1}></Link>
             </div>
           </div>
 
           <div className="xb-brand-item xb-brand-item--big xb-brand-hover">
-            <Link href="/home-2" aria-label="Brand logo 6">
+            <Link href="#" aria-label="Brand logo 6">
               <Image src={brand6} alt="Brand logo 6" />
             </Link>
-            <Link href="/home-2" className="xb-overlay" aria-hidden="true" tabIndex={-1}></Link>
+            <Link href="#" className="xb-overlay" aria-hidden="true" tabIndex={-1}></Link>
           </div>
 
           <div className="xb-brand-item">
             <div className="xb-brand-single xb-brand-hover">
-              <Link href="/home-2" aria-label="Brand logo 7">
+              <Link href="#" aria-label="Brand logo 7">
                 <Image src={brand7} alt="Brand logo 7" />
               </Link>
-              <Link href="/home-2" className="xb-overlay" aria-hidden="true" tabIndex={-1}></Link>
+              <Link href="#" className="xb-overlay" aria-hidden="true" tabIndex={-1}></Link>
             </div>
             <div className="xb-brand-single xb-brand-hover">
-              <Link href="/home-2" aria-label="Brand logo 8">
+              <Link href="#" aria-label="Brand logo 8">
                 <Image src={brand8} alt="Brand logo 8" />
               </Link>
-              <Link href="/home-2" className="xb-overlay" aria-hidden="true" tabIndex={-1}></Link>
+              <Link href="#" className="xb-overlay" aria-hidden="true" tabIndex={-1}></Link>
             </div>
           </div>
         </div>

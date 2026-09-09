@@ -48,13 +48,13 @@ const OtherDescription: FC<OtherDescriptionProps> = () => {
         <div className="col-md-6">
           <ul className="tags_block list-unstyled">
             <li>
-              <Link href="/blog">Cybersecurity</Link>
+              <Link href="/blog">Bulk SMS</Link>
             </li>
             <li>
-              <Link href="/blog">AppDev</Link>
+              <Link href="/blog">WhatsApp API</Link>
             </li>
             <li>
-              <Link href="/blog">SEO</Link>
+              <Link href="/blog">DLT Compliance</Link>
             </li>
           </ul>
         </div>
@@ -96,7 +96,7 @@ const OtherDescription: FC<OtherDescriptionProps> = () => {
             <span></span>
           </div>
           <div className="xb-item--holder">
-            <h3 className="xb-item--title">Exploring IT solutions <br /> ..with innomax</h3>
+            <h3 className="xb-item--title">Exploring CPaaS solutions <br /> ..with getsyncpeak</h3>
             <span className="xb-item--text">
               <Image src={icon8} alt="Author" /> Christopher
             </span>
@@ -109,7 +109,7 @@ const OtherDescription: FC<OtherDescriptionProps> = () => {
 
         <Link href="/blog" className="post-nav-item">
           <div className="xb-item--holder">
-            <h3 className="xb-item--title">Measuring SEO success <br /> key metrics tools..</h3>
+            <h3 className="xb-item--title">Measuring delivery success <br /> key metrics & tools..</h3>
             <span className="xb-item--text">
               <Image src={icon8} alt="Author" /> Michael
             </span>
@@ -135,7 +135,7 @@ const OtherDescription: FC<OtherDescriptionProps> = () => {
         </div>
 
         <div className="xb-item--item-input_field pos-rel">
-          <input type="email" placeholder="innomax@example.com" />
+          <input type="email" placeholder="getsyncpeak@example.com" />
           <button type="submit">Subscribe</button>
         </div>
       </div>

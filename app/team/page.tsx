@@ -22,7 +22,7 @@ const TeamPage = () => {
                                 <div className="col-lg-7 mt-30">
                                     <div className="page-title-box">
                                         <span className="sub-title"><Image src={icon} alt="" />Our team</span>
-                                        <h2 className="title">Meet the talented SEO team driving innovation, expertise, and your digital success</h2>
+                                        <h2 className="title">Meet the talented CPaaS team driving innovation, delivery and your success</h2>
                                     </div>
                                 </div>
                                 <div className="col-lg-5 mt-30">

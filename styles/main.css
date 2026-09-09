@@ -4722,6 +4722,23 @@ body[data-aos-easing=ease] [data-aos] {
   display: block;
 }
 
+.xb-brand-logo {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.xb-brand-logo--light {
+  color: var(--color-white);
+}
+
+.xb-brand-logo--dark {
+  color: #111112;
+}
+
 .stricked-menu {
   top: 0;
   top: 0;
@@ -17903,6 +17920,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   position: absolute;
   bottom: 0;
   right: 15.7%;
+  max-width: 700px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {

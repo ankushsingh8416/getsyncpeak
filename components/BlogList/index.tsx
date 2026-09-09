@@ -68,7 +68,7 @@ const BlogList = () => {
                     </div>
                     <div className="xb-item--holder">
                       <Link href="/blog-single" className="xb-item--tag">
-                        software
+                        CPaaS
                       </Link>
                       <h2 className="xb-item--title border-effect">
                         <Link href="/blog-single">
@@ -76,8 +76,8 @@ const BlogList = () => {
                         </Link>
                       </h2>
                       <p className="xb-item--content">
-                        Embark on an enlightening journey through the realm of IT solutions as we delve into the
-                        latest technological advancements shaping the digital landscape.
+                        A closer look at how businesses use Bulk SMS, WhatsApp, RCS and voice APIs to reach
+                        customers reliably at scale.
                       </p>
                     </div>
                   </div>

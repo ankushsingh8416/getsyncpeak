@@ -10,16 +10,16 @@ import cImg9 from '@/public/images/casestudy/img09.jpg';
 import cImg10 from '@/public/images/casestudy/img10.jpg';
 
 const caseStudies = [
-  { id: 1, category: "cat4", img: cImg1, title: "SEO tracking analysis..", slug: "seo-tracking-analysis" },
-  { id: 2, category: "cat3", img: cImg2, title: "Online media management..", slug: "online-media-management" },
-  { id: 3, category: "cat4", img: cImg3, title: "Cloud infrastructure..", slug: "cloud-infrastructure" },
-  { id: 4, category: "cat2", img: cImg4, title: "Design system & UI kit..", slug: "design-system-ui-kit" },
-  { id: 5, category: "cat1", img: cImg5, title: "Offline SEO marketing..", slug: "offline-seo-marketing" },
-  { id: 6, category: "cat5", img: cImg6, title: "IT security enhancement..", slug: "it-security-enhancement" },
-  { id: 7, category: "cat2", img: cImg7, title: "Minimalistic bottle logo concept..", slug: "bottle-logo-concept" },
-  { id: 8, category: "cat1", img: cImg8, title: "Advanced Link Building..", slug: "advanced-link-building" },
-  { id: 9, category: "cat5", img: cImg9, title: "Keyword Research..", slug: "keyword-research" },
-  { id: 10, category: "cat4", img: cImg10, title: "Creative Logo Design..", slug: "creative-logo-design" },
+  { id: 1, category: "cat4", img: cImg1, title: "Bulk SMS delivery analysis..", slug: "bulk-sms-delivery-analysis" },
+  { id: 2, category: "cat3", img: cImg2, title: "WhatsApp campaign management..", slug: "whatsapp-campaign-management" },
+  { id: 3, category: "cat4", img: cImg3, title: "Messaging infrastructure..", slug: "messaging-infrastructure" },
+  { id: 4, category: "cat2", img: cImg4, title: "Chatbot design & flow kit..", slug: "chatbot-design-flow-kit" },
+  { id: 5, category: "cat1", img: cImg5, title: "Voice broadcast campaigns..", slug: "voice-broadcast-campaigns" },
+  { id: 6, category: "cat5", img: cImg6, title: "DLT compliance rollout..", slug: "dlt-compliance-rollout" },
+  { id: 7, category: "cat2", img: cImg7, title: "Minimalistic brand identity concept..", slug: "brand-identity-concept" },
+  { id: 8, category: "cat1", img: cImg8, title: "RCS rich media campaigns..", slug: "rcs-rich-media-campaigns" },
+  { id: 9, category: "cat5", img: cImg9, title: "OTP & 2FA rollout..", slug: "otp-2fa-rollout" },
+  { id: 10, category: "cat4", img: cImg10, title: "API integration project..", slug: "api-integration-project" },
 ];
 
 export default caseStudies;

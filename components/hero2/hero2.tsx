@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 import Image from "next/image";
 
 // Assets
-import hImg from "@/public/images/hero/hero-img01.png";
+import hImg from "@/public/images/hero/hero-img01.webp";
 import shape1 from "@/public/images/shape/hero-shape01.png";
 import shape2 from "@/public/images/shape/hero-shape04.png";
 
@@ -12,7 +12,7 @@ const Hero2: FC = () => {
   return (
     <section
       className="hero hero-style-one pos-rel bg_img"
-      style={{ backgroundImage: `url('/images/bg/hero-bg01.jpg')` }}
+      style={{ backgroundImage: `url('/images/hero/hero-bg01.jpg')` }}
     >
       {/* Decorative Shapes */}
       <div className="hero-shape">
@@ -37,7 +37,7 @@ const Hero2: FC = () => {
               <div className="xb-hero">
                 <Fade direction="up" triggerOnce={false} duration={800} delay={6}>
                   <h1 className="xb-item--title wow fadeInUp" data-wow-duration="600ms">
-                    Transform Business with Reliable IT Solutions That Scale
+                    One CPaaS Platform for Every Way You Reach Your Customers
                   </h1>
                 </Fade>
 
@@ -47,8 +47,8 @@ const Hero2: FC = () => {
                     data-wow-delay="150ms"
                     data-wow-duration="600ms"
                   >
-                    Tailored IT solutions designed to enhance your business efficiency, security, and
-                    performance.
+                    getsyncpeak brings Bulk SMS, DLT registration, RCS, WhatsApp Business API and voice
+                    calling together on one reliable, developer-friendly platform.
                   </p>
                 </Fade>
 

@@ -92,61 +92,61 @@ interface FaqItem {
 const faqList: FaqItem[] = [
   {
     id: '1',
-    question: 'How long does it take to get results from SEO?',
+    question: 'What is DLT registration and do I need it for SMS?',
     content: {
-      text: "On average, our clients start to see initial results from SEO in 4–6 months. For competitive niches, it may take up to 1–2 years. The timeline depends on factors like:",
+      text: "DLT (Distributed Ledger Technology) registration is a TRAI requirement for sending SMS in India. getsyncpeak guides you through the full process, which includes:",
       points: [
-        'The age and authority of your site.',
-        'Your on-page and off-page optimization.',
-        'Any penalties pulling your ranking down.'
+        'Registering your business as a DLT entity.',
+        'Registering and getting your message templates approved.',
+        'Linking your approved sender ID and templates to your account.'
       ]
     }
   },
   {
     id: '2',
-    question: 'What SEO strategies do you implement for optimal results?',
+    question: 'How is WhatsApp Business API pricing calculated?',
     content: {
-      text: "We implement a holistic SEO strategy tailored to your goals. Factors affecting the timeline include:",
+      text: "WhatsApp charges per conversation, and getsyncpeak adds a transparent platform fee on top. Your cost depends on:",
       points: [
-        'The age and authority of your site.',
-        'Your on-page and off-page optimization.',
-        'Any penalties pulling your ranking down.'
+        'Whether the conversation is business- or user-initiated.',
+        'The customer\'s country and messaging category.',
+        'Your monthly conversation volume and plan tier.'
       ]
     }
   },
   {
     id: '3',
-    question: 'What part of the SEO process do you outsource?',
+    question: 'Which channels can I use through one getsyncpeak account?',
     content: {
-      text: "We focus on keeping critical SEO activities in-house, but may outsource specialized tasks if it adds value. Timeline depends on:",
+      text: "getsyncpeak gives you a single account and API for every channel your customers use, including:",
       points: [
-        'The age and authority of your site.',
-        'Your on-page and off-page optimization.',
-        'Any penalties pulling your ranking down.'
+        'Bulk SMS and OTP/2FA verification.',
+        'WhatsApp Business API and RCS business messaging.',
+        'Voice calls, IVR flows and email delivery.'
       ]
     }
   },
   {
     id: '4',
-    question: 'Can you handle SEO for an enterprise-size company?',
+    question: 'Can getsyncpeak handle enterprise-scale message volume?',
     content: {
-      text: "Absolutely! We’ve worked with enterprise clients across various sectors. However, timelines depend on:",
+      text: "Yes, our infrastructure is built for high-volume senders across every industry. Enterprise plans include:",
       points: [
-        'The age and authority of your site.',
-        'Your on-page and off-page optimization.',
-        'Any penalties pulling your ranking down.'
+        'Dedicated account and onboarding manager.',
+        'Priority routing and custom rate limits.',
+        'SLA-backed uptime and 24/7 priority support.'
       ]
     }
   },
   {
     id: '5',
-    question: 'Do you offer professional link-building services?',
+    question: 'Do you offer developer APIs and SDKs?',
     content: {
-      text: "Yes, we provide white-hat link-building services aligned with your niche and goals. Results depend on:",
+      text: "Yes, getsyncpeak provides REST APIs and SDKs for popular languages so you can integrate quickly. Every plan includes:",
       points: [
-        'The age and authority of your site.',
-        'Your on-page and off-page optimization.',
-        'Any penalties pulling your ranking down.'
+        'Well-documented REST APIs for every channel.',
+        'Sandbox access for testing before you go live.',
+        'Webhooks and delivery reports for real-time tracking.'
       ]
     }
   }

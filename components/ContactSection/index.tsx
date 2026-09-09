@@ -26,10 +26,10 @@ const ContactSection: React.FC = () => {
                   <div className="xb-item--top">
                     <h3 className="xb-item--title">Contact Info</h3>
                     <span className="xb-item--hotline">
-                      <Image src={icon1} alt="Phone" /> +(1) 1230 452 8597
+                      <Image src={icon1} alt="Phone" /> +91 98765 43210
                     </span>
                     <span className="xb-item--email">
-                      <Image src={icon2} alt="Email" /> innomax@example.com
+                      <Image src={icon2} alt="Email" /> support@getsyncpeak.io
                     </span>
                     <ul className="social_icons_block list-unstyled ul_li">
                       <li>
@@ -62,18 +62,18 @@ const ContactSection: React.FC = () => {
                   </div>
 
                   <div className="contact-info_widget">
-                    <h3 className="xb-title">United States Office</h3>
+                    <h3 className="xb-title">Gurugram Office</h3>
                     <span className="xb-location">
-                      Sunshine Example Park, Floor <br />
-                      No 05A, Sector-94,
+                      getsyncpeak Technologies, Cyber City <br />
+                      Sector 24, Gurugram, Haryana
                     </span>
                   </div>
 
                   <div className="contact-info_widget">
-                    <h3 className="xb-title">United Kingdom Office</h3>
+                    <h3 className="xb-title">Bengaluru Office</h3>
                     <span className="xb-location">
-                      12 Buckingham Rd, Example <br />
-                      Thwaite, HG3 4TY, UK
+                      4th Floor, Outer Ring Road <br />
+                      Bellandur, Bengaluru, Karnataka
                     </span>
                   </div>
 
@@ -96,7 +96,7 @@ const ContactSection: React.FC = () => {
       <div className="gmap_canvas bg-light">
         <iframe
           title="Google Map"
-          src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+          src="https://maps.google.com/maps?q=Cyber%20City,%20Gurugram,%20Haryana&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
           width="100%"
           height="400"
           style={{ border: 0 }}

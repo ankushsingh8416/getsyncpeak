@@ -24,12 +24,21 @@ const Header: React.FC = () => {
     e.preventDefault();
   };
 
+  // TEMP: client preview restriction — only the Home link should navigate.
+  // Remove this handler (and the onClick prop below) to re-enable all header links.
+  const handleNavClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    const anchor = (e.target as HTMLElement).closest('a');
+    if (anchor && anchor.getAttribute('href') !== '/') {
+      e.preventDefault();
+    }
+  };
+
   return (
     <div id="xb-header-area" className="header-area header-style-two header-transparent">
       {/* Top bar */}
       <div className="header-top">
         <span>
-          Get 15% off on all annual plans until September 30! Join Texpo as we transform SEO 🚀
+          Get 15% off on all annual CPaaS plans until September 30! Bulk SMS, RCS, WhatsApp API & Voice 🚀
         </span>
         <span>
           <Link href="/">Learn more</Link>
@@ -48,11 +57,11 @@ const Header: React.FC = () => {
       {/* Main Header */}
       <div className={`xb-header stricky ${isSticky ? 'stricked-menu stricky-fixed' : ''}`}>
         <div className="container">
-          <div className="header__wrap ul_li_between">
+          <div className="header__wrap ul_li_between" onClick={handleNavClick}>
             {/* Logo */}
             <div className="header-logo">
               <Link href="/">
-                <Image src="/images/logo/logo-black.svg" alt="Texpo Logo" width={150} height={50} />
+                <h1 className="xb-brand-logo xb-brand-logo--dark">getsyncpeak</h1>
               </Link>
             </div>
 
@@ -60,19 +69,7 @@ const Header: React.FC = () => {
             <div className="main-menu__wrap ul_li navbar navbar-expand-xl">
               <nav className="main-menu collapse navbar-collapse">
                 <ul>
-                  <li className="menu-item-has-children">
-                    <Link href="/">
-                      <span>Home</span>
-                    </Link>
-                    <ul className="submenu">
-                      <li><Link href="/"><span>SEO Agency</span></Link></li>
-                      <li><Link href="/home-2"><span>It Services</span></Link></li>
-                      <li><Link href="/home-3"><span>AI & Data Solutions</span></Link></li>
-                      <li><Link href="/home-4"><span>Cyber Security</span></Link></li>
-                      <li><Link href="/home-5"><span>Cloud and Devops</span></Link></li>
-                      <li><Link href="/home-6"><span>Help desk SaaS</span></Link></li>
-                    </ul>
-                  </li>
+                  <li><Link href="/"><span>Home</span></Link></li>
 
                   <li className="menu-item-has-children megamenu">
                     <Link href="/"><span>Company</span></Link>
@@ -84,21 +81,9 @@ const Header: React.FC = () => {
                     <MegaMenu2 />
                   </li>
 
-                  <li className="menu-item-has-children">
-                    <Link href="/casestudy"><span>Casestudy</span></Link>
-                    <ul className="submenu">
-                      <li><Link href="/casestudy"><span>Casestudy</span></Link></li>
-                      <li><Link href="/casestudy-details"><span>Casestudy Details</span></Link></li>
-                    </ul>
-                  </li>
+                  <li><Link href="/casestudy"><span>Casestudy</span></Link></li>
 
-                  <li className="menu-item-has-children">
-                    <Link href="/blog"><span>Blog</span></Link>
-                    <ul className="submenu">
-                      <li><Link href="/blog"><span>Blog</span></Link></li>
-                      <li><Link href="/blog-single"><span>Blog Details</span></Link></li>
-                    </ul>
-                  </li>
+                  <li><Link href="/blog"><span>Blog</span></Link></li>
 
                   <li><Link href="/contact"><span>Contact</span></Link></li>
                 </ul>
@@ -111,7 +96,7 @@ const Header: React.FC = () => {
                     <div className="xb-menu-close xb-hide-xl xb-close" onClick={() => setMobailState(!mobailActive)} />
                     <div className="xb-logo-mobile xb-hide-xl">
                       <Link href="/" rel="home">
-                        <Image src="/images/logo/logo-black.svg" alt="Mobile Logo" width={150} height={50} />
+                        <span className="xb-brand-logo xb-brand-logo--dark">getsyncpeak</span>
                       </Link>
                     </div>
                     <div className="xb-header-mobile-search xb-hide-xl">

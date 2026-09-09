@@ -24,7 +24,7 @@ const sections: Section[] = [
   {
     title: 'Copyright and intellectual property usage',
     content: [
-      `All content on this website, including text, graphics, logos, and trademarks, is the intellectual property of Innomax...`,
+      `All content on this website, including text, graphics, logos, and trademarks, is the intellectual property of getsyncpeak...`,
       `Images on this website may include licensed stock photos...`,
     ],
   },
@@ -45,20 +45,20 @@ const sections: Section[] = [
   {
     title: 'Personal information policy',
     content: [
-      `Innomax adheres to ethical business practices and safeguards your personal information...`,
+      `getsyncpeak adheres to ethical business practices and safeguards your personal information...`,
     ],
   },
   {
     title: 'Disclaimer',
     content: [
       `Information on this website is provided in good faith and sourced from reliable providers...`,
-      `Innomax disclaims all warranties, including those related to fitness for a particular purpose...`,
+      `getsyncpeak disclaims all warranties, including those related to fitness for a particular purpose...`,
     ],
   },
   {
     title: 'Limitation of liability',
     content: [
-      `Innomax disclaims liability for any damages, including lost data or profits...`,
+      `getsyncpeak disclaims liability for any damages, including lost data or profits...`,
     ],
   },
 ];
@@ -82,7 +82,7 @@ const TermsPage: React.FC = () => {
                       <Image src={icon} alt="Terms icon" /> Terms & Conditions
                     </span>
                     <h2 className="title">
-                      Innomax website terms & <br />
+                      getsyncpeak website terms & <br />
                       conditions your access and <br />
                       usage rights
                     </h2>
@@ -134,7 +134,7 @@ const TermsPage: React.FC = () => {
                         Click here
                       </Link>{' '}
                       to contact us regarding this Terms & Conditions or other related issues. You can also send us an e-mail on:{' '}
-                      <a href="mailto:contact@innomax.com">contact@innomax.com</a>
+                      <a href="mailto:contact@getsyncpeak.com">contact@getsyncpeak.com</a>
                     </p>
                   </div>
                 </div>

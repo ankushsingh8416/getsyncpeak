@@ -47,7 +47,7 @@ const BlogSingle: React.FC = () => {
           </ul>
           <h2 className="item_details_heading"></h2>
           <p className="mb-40">
-            Embark on an enlightening journey through the realm of IT solutions as we delve into the latest technological advancements shaping the digital landscape.
+            A closer look at how Bulk SMS, WhatsApp Business API, RCS and voice calling come together on one CPaaS platform to power modern customer engagement.
           </p>
 
           <div className="row">
@@ -105,7 +105,7 @@ const BlogSingle: React.FC = () => {
               </div>
 
               <h3 className="item_details_info_heading">
-                Revolutionizing business efficiency navigating growth <br /> with optimal IT infrastructure enhancement
+                Revolutionizing customer engagement by navigating growth <br /> with a reliable CPaaS foundation
               </h3>
 
               <div className="row mb-4">
@@ -121,8 +121,8 @@ const BlogSingle: React.FC = () => {
                 </div>
               </div>
 
-              <p>Gain exclusive insights into the world of IT solutions with Innomax’s distinguished thought leaders...</p>
-              <p>Embark on an illuminating journey into the world of IT solutions with our esteemed thought leaders...</p>
+              <p>Gain exclusive insights into the world of CPaaS with getsyncpeak’s distinguished thought leaders...</p>
+              <p>Embark on an illuminating journey into the world of messaging and voice APIs with our esteemed thought leaders...</p>
 
               <div className="blog-details-video mt-70">
                 <iframe

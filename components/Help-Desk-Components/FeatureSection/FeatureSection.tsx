@@ -16,24 +16,24 @@ const FeatureSection = () => {
 
     const accordionData = [
         {
-            title: "Improve time to value",
+            title: "Go live faster",
             content:
-                "Self-service and automation deflect 15% of agent contacts. Agents resolve remaining tickets faster with rich customer insights for better efficiency and service.",
+                "Pre-built APIs and SDKs plus a guided DLT registration process get your first SMS, RCS or WhatsApp campaign live in days, not weeks.",
         },
         {
-            title: "Reduce effort per ticket",
+            title: "Reduce delivery failures",
             content:
-                "Self-service and automation deflect 15% of agent contacts. Agents resolve remaining tickets faster with rich customer insights for better efficiency and service.",
+                "Smart routing across multiple carrier connections keeps your messages landing in the inbox, even during peak traffic.",
         },
         {
             title: "Keep costs low",
             content:
-                "Self-service and automation deflect 15% of agent contacts. Agents resolve remaining tickets faster with rich customer insights for better efficiency and service.",
+                "Transparent, usage-based pricing across SMS, RCS, WhatsApp and voice means you only pay for what you send, with no hidden fees.",
         },
         {
-            title: "Boost Customer Satisfaction",
+            title: "Boost customer satisfaction",
             content:
-                "Self-service and automation deflect 15% of agent contacts. Agents resolve remaining tickets faster with rich customer insights for better efficiency and service.",
+                "Reach customers on the channel they prefer, from SMS alerts to WhatsApp conversations, with detailed delivery reports for every message.",
         },
     ];
 
@@ -63,7 +63,7 @@ const FeatureSection = () => {
                                             <h2 className="title mb-15 wow skewIn" data-wow-duration="600ms">Maximize your ROI</h2>
                                         </div>
                                     </Fade>
-                                    <p>Save time and money with Innomax. According to Forrester&apos;s our Total Economic Impact™ (TEI) study, customers saw a 286% ROI over three years.</p>
+                                    <p>Save time and money with getsyncpeak. Customers report faster campaign launches, higher delivery rates and lower cost per conversation within the first quarter.</p>
                                 </div>
                                 <div className="xb-faq xb-faq-two">
                                     <ul className="accordion_box clearfix list-unstyled">

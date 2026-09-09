@@ -24,36 +24,36 @@ interface ProcessItem {
 const Process: ProcessItem[] = [
   {
     id: '01',
-    title: 'Consultation & needs analysis',
-    subTitle: 'We first understand your challenges to tailor a solution that fits your needs.',
+    title: 'Consultation & channel selection',
+    subTitle: 'We understand your use case to recommend the right mix of SMS, RCS, WhatsApp or voice.',
     icon: sIcon1,
     direction: 'one',
   },
   {
     id: '02',
-    title: 'Planning & strategy development',
-    subTitle: 'Our team crafts a strategic plan, defining the project roadmap and setting timelines.',
+    title: 'DLT & account setup',
+    subTitle: 'We handle DLT entity and template registration so your first campaign stays compliant.',
     icon: sIcon2,
     direction: 'two',
   },
   {
     id: '03',
-    title: 'Design & development',
-    subTitle: 'Our designers create intuitive interfaces, while developers build scalable, robust systems.',
+    title: 'API integration',
+    subTitle: 'Our developer-friendly APIs and SDKs plug into your app or CRM in a matter of hours.',
     icon: sIcon3,
     direction: 'three',
   },
   {
     id: '04',
-    title: 'Testing & quality assurance',
-    subTitle: 'We rigorously test for security, performance resolving any issues before deployment.',
+    title: 'Testing & delivery checks',
+    subTitle: 'We test routing, delivery reports and fallback channels before you go live.',
     icon: sIcon4,
     direction: 'four',
   },
   {
     id: '05',
-    title: 'Deployment & ongoing support',
-    subTitle: 'We first understand your challenges to tailor a solution that fits your needs.',
+    title: 'Go live & ongoing support',
+    subTitle: 'Your campaigns go live with a dedicated support team monitoring delivery around the clock.',
     icon: sIcon5,
     direction: 'four',
   },
@@ -70,7 +70,7 @@ const WorkProcess: React.FC = () => {
                 <Fade direction="down" triggerOnce duration={1000} delay={9}>
                   <div>
                     <h2 className="title mb-40 wow fadeInUp" data-wow-duration="600ms">
-                      Our 5-step workflow
+                      Our 5-step onboarding
                     </h2>
                   </div>
                 </Fade>
@@ -81,9 +81,8 @@ const WorkProcess: React.FC = () => {
                       data-wow-delay="200ms"
                       data-wow-duration="600ms"
                     >
-                      Our innomax Efficient Workflow in 5 Steps ensures streamlined IT solutions. We
-                      start by understanding your needs, then plan the project, design intuitive
-                      interfaces, build robust systems, and thoroughly test.
+                      From your first consultation to a fully integrated CPaaS stack, getsyncpeak gets you
+                      sending compliant SMS, RCS, WhatsApp and voice messages in days, not weeks.
                     </span>
                   </div>
                 </Fade>

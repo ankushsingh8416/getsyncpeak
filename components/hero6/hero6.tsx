@@ -19,7 +19,7 @@ const Hero6: React.FC = () => {
               <div className="xb-hero">
                 <Fade direction="up" triggerOnce duration={1000} delay={9}>
                   <h1 className="xb-item--title wow fadeInUp" data-wow-duration="600ms">
-                    AI - Powered <br /> help desk for <br /> fast support
+                    AI - Powered <br /> conversations on <br /> every channel
                   </h1>
                 </Fade>
                 <Fade direction="up" triggerOnce duration={1200} delay={9}>
@@ -28,7 +28,7 @@ const Hero6: React.FC = () => {
                     data-wow-delay="150ms"
                     data-wow-duration="600ms"
                   >
-                    90K+ Businesses with AI-powered Innomax for Fast Support
+                    90K+ businesses run AI-powered SMS, WhatsApp and voice support on getsyncpeak
                   </p>
                 </Fade>
                 <Fade direction="up" triggerOnce duration={1400} delay={9}>
@@ -41,13 +41,13 @@ const Hero6: React.FC = () => {
                       <span>
                         <Image src={icon1} alt="Check mark icon" />
                       </span>{' '}
-                      Human-like conversations via voice, chat & email
+                      Human-like conversations via voice, WhatsApp & SMS
                     </li>
                     <li>
                       <span>
                         <Image src={icon1} alt="Check mark icon" />
                       </span>{' '}
-                      Speed and accuracy through in-house LLMs
+                      Speed and accuracy through AI-driven chatbots
                     </li>
                   </ul>
                 </Fade>

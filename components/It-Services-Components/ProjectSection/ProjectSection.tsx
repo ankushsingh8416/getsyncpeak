@@ -28,12 +28,12 @@ const ProjectSection: React.FC = () => {
           <div className="sec-title">
             <Fade direction="up" triggerOnce duration={1000} delay={9}>
               <div>
-                <h2 className="title mb-15">Recent works</h2>
+                <h2 className="title mb-15">Success stories</h2>
               </div>
             </Fade>
             <Fade direction="up" triggerOnce duration={1000} delay={9}>
               <div>
-                <span className="content">Recent Works showcases our latest projects.</span>
+                <span className="content">See how businesses use getsyncpeak to reach their customers.</span>
               </div>
             </Fade>
           </div>

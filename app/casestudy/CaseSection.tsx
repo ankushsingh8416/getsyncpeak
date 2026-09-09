@@ -28,7 +28,7 @@ const CaseStudySection: React.FC = () => {
     { key: "cat2", label: "Design" },
     { key: "cat3", label: "Marketing" },
     { key: "cat4", label: "Branding" },
-    { key: "cat5", label: "IT Services" },
+    { key: "cat5", label: "Compliance" },
   ];
 
   return (

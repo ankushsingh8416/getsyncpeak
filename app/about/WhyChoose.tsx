@@ -39,9 +39,9 @@ const WhyChoose: React.FC<WhyChooseProps> = () => {
           <div className="col-lg-4 col-md-6 mt-30">
             <div className="ap-fea-item pos-rel">
               <div className="xb-item--img">
-                <Image src={sIcon4} alt="Custom SEO tools" />
+                <Image src={sIcon4} alt="Custom compliance tools" />
               </div>
-              <h3 className="xb-item--content">We created our own SEO tools to fill in the gaps</h3>
+              <h3 className="xb-item--content">We built our own delivery and DLT compliance tools to close the gaps</h3>
             </div>
           </div>
         </div>

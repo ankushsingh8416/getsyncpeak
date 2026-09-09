@@ -23,32 +23,32 @@ const MegaMenu2 = () => {
                                                             <Link
                                                                 href="/service-single">
                                                                 <span
-                                                                    className="icon_list_text">International
-                                                                    SEO</span>
+                                                                    className="icon_list_text">Bulk
+                                                                    SMS</span>
                                                             </Link>
                                                         </li>
                                                         <li>
                                                             <Link
                                                                 href="/service-single">
                                                                 <span
-                                                                    className="icon_list_text">Niche
-                                                                    research</span>
+                                                                    className="icon_list_text">DLT
+                                                                    Registration</span>
                                                             </Link>
                                                         </li>
                                                         <li>
                                                             <Link
                                                                 href="/service-single">
                                                                 <span
-                                                                    className="icon_list_text">Link
-                                                                    building </span>
+                                                                    className="icon_list_text">RCS
+                                                                    Business Messaging </span>
                                                             </Link>
                                                         </li>
                                                         <li>
                                                             <Link
                                                                 href="/service-single">
                                                                 <span
-                                                                    className="icon_list_text">Enterprise
-                                                                    SEO</span>
+                                                                    className="icon_list_text">WhatsApp
+                                                                    Business API</span>
                                                             </Link>
                                                         </li>
                                                     </ul>
@@ -62,32 +62,32 @@ const MegaMenu2 = () => {
                                                             <Link
                                                                 href="/service-single">
                                                                 <span
-                                                                    className="icon_list_text">Penalty
-                                                                    recovery</span>
+                                                                    className="icon_list_text">Voice
+                                                                    Call &amp; IVR</span>
                                                             </Link>
                                                         </li>
                                                         <li>
                                                             <Link
                                                                 href="/service-single">
                                                                 <span
-                                                                    className="icon_list_text">Content
-                                                                    optimization</span>
+                                                                    className="icon_list_text">OTP &amp;
+                                                                    2FA Verification</span>
                                                             </Link>
                                                         </li>
                                                         <li>
                                                             <Link
                                                                 href="/service-single">
                                                                 <span
-                                                                    className="icon_list_text">Technical
-                                                                    SEO</span>
+                                                                    className="icon_list_text">Email
+                                                                    API</span>
                                                             </Link>
                                                         </li>
                                                         <li>
                                                             <Link
                                                                 href="/service-single">
                                                                 <span
-                                                                    className="icon_list_text">Competitor
-                                                                    analysis</span>
+                                                                    className="icon_list_text">Chatbot &amp;
+                                                                    Conversational API</span>
                                                             </Link>
                                                         </li>
                                                     </ul>
@@ -138,8 +138,8 @@ const MegaMenu2 = () => {
                                 </div>
                                 <div className="col-xl-3">
                                     <div className="megamenu_case">
-                                        <h3>Software</h3>
-                                        <h4>Madical SEO success..</h4>
+                                        <h3>Case Study</h3>
+                                        <h4>99.3% SMS delivery success..</h4>
                                         <Image src={mImg} alt="" />
                                         <Link className="megamenu_btn" href="/casestudy">
                                             <span className="btn_label">Read

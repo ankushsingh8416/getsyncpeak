@@ -30,10 +30,10 @@ const AboutUsPage: React.FC = () => {
                   <div className="page-title-box">
                     <span className="sub-title">
                       <Image src={icon} alt="Magic Icon" />
-                      About Innomax
+                      About getsyncpeak
                     </span>
                     <h2 className="title">
-                      Unlocking new heights of online success: how our SEO agency transforms visibility and growth
+                      Powering every conversation: how getsyncpeak helps businesses reach customers reliably
                     </h2>
                   </div>
                 </div>
