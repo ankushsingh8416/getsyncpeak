@@ -23,11 +23,12 @@ const Header2: FC = () => {
     e.preventDefault();
   };
 
-  // TEMP: client preview restriction — only the Home link should navigate.
+  // TEMP: client preview restriction — only these links should navigate.
   // Remove this handler (and the onClick prop below) to re-enable all header links.
+  const allowedNavPaths = ['/', '/about', '/pricing', '/team', '/career', '/terms-conditions', '/privacy-policy'];
   const handleNavClick = (e: React.MouseEvent<HTMLDivElement>) => {
     const anchor = (e.target as HTMLElement).closest('a');
-    if (anchor && anchor.getAttribute('href') !== '/') {
+    if (anchor && !allowedNavPaths.includes(anchor.getAttribute('href') || '')) {
       e.preventDefault();
     }
   };
